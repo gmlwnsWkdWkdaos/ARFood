@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbbb4916-d4db-491b-b4c7-490292c64ba2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/chat_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/search_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/setting_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/trade_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sqEMfspDOmDzYm1Sn9JplsFGcH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../Android_SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbbb4916-d4db-491b-b4c7-490292c64ba2" name="Default Changelist" comment="" />
+      <created>1621591672653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621591672653</updated>
+    </task>
+    <servers />
+  </component>
+</project>

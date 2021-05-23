@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/AR_example"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ar_img">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/ARfind_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/main_solid_button"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/ar_icon"
+            android:text="AR 음식점 찾기">
+        </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/store_example"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/store_img">
+        </ImageView>
+
+        <Button
+            android:id="@+id/storefind_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/main_solid_button"
+            android:drawableLeft="@drawable/gps_icon"
+            android:text="주변 음식점 찾기"
+            android:textColor="#000000">
+        </Button>
+
+    </RelativeLayout>
+</LinearLayout>

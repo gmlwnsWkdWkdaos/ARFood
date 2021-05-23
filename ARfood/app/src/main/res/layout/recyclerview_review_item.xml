@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/review_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RatingBar
+        android:id="@+id/review_star"
+        style="?android:attr/ratingBarStyleSmall"
+        android:progressTint="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/store_review_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="너무너무 맛있어요!! \n강추!!"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/review_star"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/review_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/first_names"
+        app:layout_constraintTop_toBottomOf="@id/store_review_string"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        app:layout_constraintStart_toEndOf="@id/review_uid"
+        app:layout_constraintTop_toBottomOf="@id/store_review_string"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/date/ddmmyy"
+        app:layout_constraintStart_toEndOf="@id/review_uid"
+        app:layout_constraintTop_toBottomOf="@id/store_review_string"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
