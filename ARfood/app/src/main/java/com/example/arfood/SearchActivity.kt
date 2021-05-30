@@ -14,6 +14,11 @@ import android.widget.ImageView
 import com.unity3d.player.UnityPlayerActivity
 import kotlinx.android.synthetic.main.recyclerview_store_item.*
 import kotlinx.android.synthetic.main.activity_store.*
+import android.view.View
+import android.view.ViewGroup
+import android.widget.RelativeLayout
+import kotlinx.android.synthetic.main.activity_map.*
+import net.daum.mf.map.api.MapView
 
 class SearchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,8 +31,14 @@ class SearchActivity : AppCompatActivity() {
                 startActivity(nextintent)
             }
         })
-    }
+        setContentView(R.layout.activity_map)
 
+        val mapView = MapView(this)
+
+        val mapViewContainer = map_view as ViewGroup
+
+        mapViewContainer.addView(mapView)
+    }
 
 
 }
