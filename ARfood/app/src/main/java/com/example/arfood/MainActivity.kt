@@ -11,6 +11,7 @@ import android.widget.Button
 import android.widget.Toast
 import android.view.MenuItem
 import android.widget.ImageView
+import com.unity3d.player.UnityPlayerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,15 +23,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val arbtn : Button = findViewById(R.id.arfind_btn)
-        val arimgview : ImageView = findViewById(R.id.ar_imgview)
         val storebtn : Button = findViewById(R.id.storefind_btn)
-        val storeimgview : ImageView = findViewById(R.id.store_imgview)
 
-
-        //ar 눌렀을때 액티비티 전환
+        //ar버튼 눌렀을때 액티비티 전환
         arbtn.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
-                val nextintent = Intent(this@MainActivity, ARActivity::class.java)
+                val nextintent = Intent(this@MainActivity, UnityPlayerActivity::class.java)
                 startActivity(nextintent)
             }
         })
