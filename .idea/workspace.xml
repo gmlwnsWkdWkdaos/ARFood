@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbbb4916-d4db-491b-b4c7-490292c64ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/chat_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/coin_image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/search_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/setting_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/app/src/main/res/drawable-v24/trade_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/app/src/main/res/values/themes.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbbb4916-d4db-491b-b4c7-490292c64ba2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

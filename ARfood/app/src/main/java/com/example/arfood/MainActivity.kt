@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import android.view.MenuItem
+import com.unity3d.player.UnityPlayerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //ar버튼 눌렀을때 액티비티 전환
         arbtn.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
-                val nextintent = Intent(this@MainActivity, ARActivity::class.java)
+                val nextintent = Intent(this@MainActivity, UnityPlayerActivity::class.java)
                 startActivity(nextintent)
             }
         })
