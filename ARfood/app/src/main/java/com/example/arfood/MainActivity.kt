@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(nextintent)
             }
         })
-        arimgview.setOnClickListener(object : View.OnClickListener{
+        ar_imgview.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
-                val nextintent = Intent(this@MainActivity, ARActivity::class.java)
+                val nextintent = Intent(this@MainActivity, UnityPlayerActivity::class.java)
                 startActivity(nextintent)
             }
         })
