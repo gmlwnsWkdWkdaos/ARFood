@@ -30,7 +30,21 @@ class MainActivity : AppCompatActivity() {
                 startActivity(nextintent)
             }
         })
+        ar_imgview.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(v: View?) {
+                val nextintent = Intent(this@MainActivity, UnityPlayerActivity::class.java)
+                startActivity(nextintent)
+            }
+        })
+
+        //store 눌렀을때 액티비티 전환
         storebtn.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(v: View?) {
+                val nextintent = Intent(this@MainActivity, SearchActivity::class.java)
+                startActivity(nextintent)
+            }
+        })
+        store_imgview.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
                 val nextintent = Intent(this@MainActivity, SearchActivity::class.java)
                 startActivity(nextintent)

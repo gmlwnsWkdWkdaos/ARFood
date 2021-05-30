@@ -36,7 +36,7 @@
             android:layout_marginTop="90dp" />
 
         <Button
-            android:id="@+id/review_bt"
+            android:id="@+id/review_btn"
             android:layout_width="263dp"
             android:layout_height="54dp"
             android:background="@drawable/review_solid_button"
