@@ -1,31 +1,16 @@
-package com.example.arfood.Adapter
+package com.example.arfood
 
 
 //import com.project.cointerest.Fragment.CoinList
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.graphics.Color
-import android.net.Uri
-import android.os.AsyncTask
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.example.arfood.Dinning
-import com.example.arfood.MapActivity
-import com.example.arfood.R
-import kotlinx.android.synthetic.main.activity_map.*
-import kotlinx.android.synthetic.main.activity_map.view.*
-import kotlinx.android.synthetic.main.activity_store.*
-import kotlinx.android.synthetic.main.activity_store.view.*
 import kotlinx.android.synthetic.main.recyclerview_store_item.view.*
-import net.daum.mf.map.api.MapView
-import java.net.URL
 
 
 class StoreRecyclerAdapter(val context: Context, var storeList: ArrayList<Dinning>) :

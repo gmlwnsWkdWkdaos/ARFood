@@ -1,28 +1,9 @@
 package com.example.arfood
 
-import android.annotation.SuppressLint
-import android.app.Activity
-import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.Toast
-import android.view.MenuItem
-import android.widget.ImageView
-import com.unity3d.player.UnityPlayerActivity
-import kotlinx.android.synthetic.main.recyclerview_store_item.*
-import kotlinx.android.synthetic.main.activity_store.*
-import android.view.ViewGroup
-import android.widget.RelativeLayout
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.arfood.Adapter.StoreRecyclerAdapter
-import kotlinx.android.synthetic.main.activity_map.*
-import net.daum.mf.map.api.MapView
 
 class SearchActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
