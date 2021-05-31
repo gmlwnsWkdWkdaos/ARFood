@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatDelegate
 import com.unity3d.player.UnityPlayerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
